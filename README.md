@@ -2,7 +2,7 @@
 
 『홈런 클래시 2』를 모작한 캐주얼 야구 액션 게임
 
-**Unreal Engine 5** · C++ · Blueprint
+**Unreal Engine 5** · C++ · Blueprint<br>
 UE 클라이언트 3인 · 개발 기간 4주 · 약 20명 대상 빌드 플레이테스트
 
 ## 게임 소개
