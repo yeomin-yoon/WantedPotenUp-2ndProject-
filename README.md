@@ -5,7 +5,7 @@
 **Unreal Engine 5.5** · C++ · Blueprint<br>
 UE 클라이언트 3인 · 개발 기간 4주 · 약 20명 대상 빌드 플레이테스트
 
-[시연 영상](https://youtu.be/WMB95wu5jro)
+[시연 영상](https://youtu.be/WMB95wu5jro) · [Notion](https://app.notion.com/p/349e6578029f800e9a24c25058154ff1)
 
 ## 게임 소개
 
@@ -49,4 +49,3 @@ Unreal Engine 5.5 · C++ · Blueprint · Firebase (Realtime Database REST API)
 4. 프로젝트를 열고 `Content/Map/GameLevel/StartLevel`에서 플레이합니다.
 
 엔진 버전과 시작 맵은 저장소 설정을 기준으로 작성했습니다. 새 환경에서의 빌드·실행과 외부 Firebase 서비스의 현재 동작 여부는 별도로 검증하지 않았습니다.
-
