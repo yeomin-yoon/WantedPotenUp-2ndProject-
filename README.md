@@ -1,9 +1,11 @@
-# HomeRunClashCopy
+# 홈런 클래시2 모작 (HomeRunClashCopy)
 
 『홈런 클래시 2』를 모작한 캐주얼 야구 액션 게임
 
-**Unreal Engine 5** · C++ · Blueprint<br>
+**Unreal Engine 5.5** · C++ · Blueprint<br>
 UE 클라이언트 3인 · 개발 기간 4주 · 약 20명 대상 빌드 플레이테스트
+
+[시연 영상](https://youtu.be/WMB95wu5jro)
 
 ## 게임 소개
 
@@ -30,11 +32,21 @@ UE 클라이언트 3인 · 개발 기간 4주 · 약 20명 대상 빌드 플레�
 
 **게임 시스템 · UI** — [@yeomin-yoon](https://github.com/yeomin-yoon)
 
-- 속도 제곱 비례 특성을 적용한 공기저항 계산 라이브러리 (C++ · Blueprint 재사용)
+- 공기저항의 속도 제곱 비례 특성을 참고해 단순화한 Curve 기반 감속 함수 (C++ · Blueprint에서 사용)
 - GameMode 상태 전환 기반 경기 진행 흐름과 점수 산정
 - GameInstance를 경유한 메인메뉴 아이템 선택 정보의 인게임 전달
 - 미션 · 콤보 · 예고홈런 · 타격 판정 · 비거리 · 승패 UI와 애니메이션, 인트로 카메라 연출
 
 ## 개발 환경
 
-Unreal Engine 5 · C++ · Blueprint · Firebase (Realtime Database REST API)
+Unreal Engine 5.5 · C++ · Blueprint · Firebase (Realtime Database REST API)
+
+## 프로젝트 열기
+
+1. Unreal Engine 5.5와 C++ 빌드 환경을 준비합니다.
+2. Git LFS를 설치한 환경에서 저장소를 복제하고 `git lfs pull`로 LFS 에셋을 내려받습니다.
+3. `HomeRunClashCopy.uproject`에서 Visual Studio 프로젝트 파일을 생성하고, 생성된 솔루션을 `Development Editor` 구성으로 빌드합니다.
+4. 프로젝트를 열고 `Content/Map/GameLevel/StartLevel`에서 플레이합니다.
+
+엔진 버전과 시작 맵은 저장소 설정을 기준으로 작성했습니다. 새 환경에서의 빌드·실행과 외부 Firebase 서비스의 현재 동작 여부는 별도로 검증하지 않았습니다.
+
